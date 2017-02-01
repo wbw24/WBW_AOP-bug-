@@ -13,6 +13,8 @@
 		85ED666E1E39BF9A009BDAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85ED666C1E39BF9A009BDAEC /* Main.storyboard */; };
 		85ED66701E39BF9A009BDAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85ED666F1E39BF9A009BDAEC /* Assets.xcassets */; };
 		85ED66731E39BF9A009BDAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85ED66711E39BF9A009BDAEC /* LaunchScreen.storyboard */; };
+		85ED66801E3C5324009BDAEC /* WBWInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ED667F1E3C5324009BDAEC /* WBWInterceptor.m */; };
+		85ED66881E3DD81D009BDAEC /* ViewController_log.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ED66871E3DD81D009BDAEC /* ViewController_log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		85ED666F1E39BF9A009BDAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85ED66721E39BF9A009BDAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85ED66741E39BF9A009BDAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85ED667A1E39BFC9009BDAEC /* WBSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBSingleton.h; sourceTree = "<group>"; };
+		85ED667E1E3C5324009BDAEC /* WBWInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBWInterceptor.h; sourceTree = "<group>"; };
+		85ED667F1E3C5324009BDAEC /* WBWInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBWInterceptor.m; sourceTree = "<group>"; };
+		85ED66861E3DD81D009BDAEC /* ViewController_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_log.h; sourceTree = "<group>"; };
+		85ED66871E3DD81D009BDAEC /* ViewController_log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_log.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +74,11 @@
 				85ED66711E39BF9A009BDAEC /* LaunchScreen.storyboard */,
 				85ED66741E39BF9A009BDAEC /* Info.plist */,
 				85ED66631E39BF9A009BDAEC /* Supporting Files */,
+				85ED667A1E39BFC9009BDAEC /* WBSingleton.h */,
+				85ED667F1E3C5324009BDAEC /* WBWInterceptor.m */,
+				85ED667E1E3C5324009BDAEC /* WBWInterceptor.h */,
+				85ED66861E3DD81D009BDAEC /* ViewController_log.h */,
+				85ED66871E3DD81D009BDAEC /* ViewController_log.m */,
 			);
 			path = "WBW_AOP(线下bug处理)";
 			sourceTree = "<group>";
@@ -152,6 +164,8 @@
 			files = (
 				85ED666B1E39BF9A009BDAEC /* ViewController.m in Sources */,
 				85ED66681E39BF9A009BDAEC /* AppDelegate.m in Sources */,
+				85ED66801E3C5324009BDAEC /* WBWInterceptor.m in Sources */,
+				85ED66881E3DD81D009BDAEC /* ViewController_log.m in Sources */,
 				85ED66651E39BF9A009BDAEC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +323,7 @@
 				85ED66791E39BF9A009BDAEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
